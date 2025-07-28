@@ -103,7 +103,7 @@
     <h1>🙍🏻‍♂️ User Portal</h1>
     <a href="user_login.php">🔐 Login as User</a>
     <a href="user_signup.php">🔓 Sign Up as User</a>
-    <a href="index.php" class="back-link">⬅️ Back to Main Selection</a>
+    <a href="index.php" class="back-link">🏠︎ Back to Main Selection</a>
 </div>
 
 </body>
