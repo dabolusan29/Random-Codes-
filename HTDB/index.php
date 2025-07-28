@@ -10,10 +10,10 @@
 <header>Hotel Management and Booking System</header>
 
 <div class="selection-container">
-    <h1>Welcome</h1>
+    <h1>૮₍ ´ ꒳ `₎ა Welcome ૮₍ ´ ꒳ `₎ა</h1>
     <div class="login-buttons">
-        <a href="user_selection.php">Login/Sign Up as User</a>
-        <a href="admin_selection.php">Login/Sign Up as Admin</a>
+        <a href="user_selection.php">🙍🏻‍♂️ User</a>
+        <a href="admin_selection.php">👨🏻‍💼 Admin</a>
     </div>
 </div>
 
