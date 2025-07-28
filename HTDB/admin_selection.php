@@ -103,8 +103,9 @@
     <h1>👨🏻‍💼 Admin Portal</h1>
     <a href="admin_login.php">🔐 Login as Admin</a>
     <a href="admin_signup.php">🔓 Sign Up as Admin</a>
-    <a href="index.php" class="back-link">⬅️ Back to Main Selection</a>
+    <a href="index.php" class="back-link">🏠︎ Back to Main Selection</a>
 </div>
 
 </body>
 </html>
+
