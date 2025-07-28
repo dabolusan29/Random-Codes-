@@ -1,0 +1,90 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #e0e6f8 0%, #ffffff 100%);
+            color: #1a1a2e;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            padding: 20px 0;
+            background: linear-gradient(90deg, #0a2e59, #3a5ba0);
+            color: #e0e6f8;
+            font-weight: 700;
+            font-size: 2.5rem;
+            letter-spacing: 3px;
+            text-align: center;
+            text-shadow: 1px 1px 6px rgba(10, 46, 89, 0.7);
+            box-shadow: 0 6px 15px rgba(10, 46, 89, 0.4);
+            border-radius: 0 0 12px 12px;
+            margin-bottom: 60px;
+        }
+
+        .selection-container {
+            max-width: 400px;
+            width: 90%;
+            background: #f8faff;
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(10, 46, 89, 0.15);
+            text-align: center;
+            animation: fadeIn 0.7s ease-in-out;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .selection-container:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 20px rgba(10, 46, 89, 0.2);
+        }
+
+        h1 {
+            font-weight: 600;
+            font-size: 2rem;
+            color: #0a2e59;
+            margin-bottom: 40px;
+            text-shadow: 1px 1px 3px rgba(10, 46, 89, 0.3);
+        }
+
+        .login-buttons a {
+            display: block;
+            margin: 15px auto;
+            padding: 14px 0;
+            width: 100%;
+            max-width: 260px;
+            background-color: #0a2e59;
+            color: #e0e6f8;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            text-decoration: none;
+            box-shadow: 0 3px 7px rgba(10, 46, 89, 0.3);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .login-buttons a:hover {
+            background-color: #163f85;
+            box-shadow: 0 5px 15px rgba(10, 46, 89, 0.4);
+        }
+
+        @media (max-width: 480px) {
+            .selection-container {
+                padding: 30px 20px;
+            }
+
+            header {
+                font-size: 2rem;
+                letter-spacing: 2px;
+                margin-bottom: 40px;
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
